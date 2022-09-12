@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500display=swap');
+html{
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+h1{
+  font-weight: 200;
+  /* WARNING: Do not enter */
+  font-size: 50px ;
+  font-family: ChopinScript;
+  border: 3px solid #fff;
+  color: #fff;
+  letter-spacing: 6px;
+  padding: 2rem;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+p{
+  font-size: 15px ;
+  font-family: ChopinScript ;
+  color: #fff;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 95%;
+  left: 45%;
+}
+
+.click2{
+  font-family: ChopinScript;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 15px ;
+  font-family: Microsoft Sans Serif;
+  color: #fff;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 97%;
+  left: 48%;
+}
